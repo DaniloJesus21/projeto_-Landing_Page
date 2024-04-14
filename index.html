@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <ul>
+        <a href="#home"><li>Início</li></a>
+        <a href="#serviços"><li>Serviços</li></a>
+        <a href="#produtos"><li>Produtos</li></a>
+        <a href="#comentários"><li>Comentários</li></a>
+        <a href="#contato"><li>Contato</li></a>
+      </ul>
+    </div>
+  </nav>
+  <section id="home">
+    <nav style="display: flex;justify-content: center; align-items: center; padding: 10px; background-color: rgb(40, 2, 116);  color: rgb(233, 246, 255); font-weight: 800;">
+      <p style="margin-right: 10px ;">Data de início</p>
+      <input type="date" style="margin-right: 10px ;">
+      <p style="margin-right: 10px ;">Data de saída</p>
+      <input type="date" style="margin-right: 10px ;">
+      <p style="margin-right: 10px ;">Adultos</p>
+      <select name="select" id="select" style="margin-right: 10px ;">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+      </select>
+      <p style="margin-right: 10px ;">Crianças</p>
+      <select name="select" id="select" style="margin-right: 10px ;">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+      </select>
+      <button type="submit">BUSCAR<img src="./imagens/search.icon.png"></button>
+    </nav>
+    <div class="home_texto">
+      <h1>Resort Paradise</h1>
+    </div>
+  </section>
+  <section id="serviços">
+    <div class="container">
+      <h2>Serviços</h2>
+      <div class="serviços">
+        <div class="atividade">
+          <div>
+            <img src="./imagens/sala-de-jogos.jpg" alt="Salão de Jogos">
+          </div>
+          <div class="atividade_texto">
+            <h3>Salão de Jogos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+
+        <div class="atividade">
+          <div>
+            <img src="./imagens/piscina grande.webp" alt="Piscina grande">
+          </div>
+          <div class="atividade_texto">
+            <h3>Piscinas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+
+        <div class="atividade">
+          <div>
+            <img src="./imagens/lobby-do-restaurante.jpg" alt="Restaurante">
+          </div>
+          <div class="atividade_texto">
+            <h3>Restaurantes</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>
+  <section id="produtos">
+    <div class="container">
+      <h2>Produtos</h2>
+      <div class="produtos">
+        <div class="quarto">
+          <div>
+            <img src="./imagens/quarto simples.jpg" alt="Quarto de hotel">
+          </div>
+          <div class="quarto_texto">
+            <h3>Quarto Simples</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+
+        <div class="quarto">
+          <div>
+            <img src="./imagens/quarto_familia.jpg" alt="Quarto de hotel">
+          </div>
+          <div class="quarto_texto">
+            <h3>Quarto Família</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+
+        <div class="quarto">
+          <div>
+            <img src="./imagens/Suite.webp" alt="Quarto de hotel">
+          </div>
+          <div class="quarto_texto">
+            <h3>Suite</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+
+        <div class="quarto">
+          <div>
+            <img src="./imagens/Suite Prêmium.webp" alt="Quarto de hotel">
+          </div>
+          <div class="quarto_texto">
+            <h3>Suite Deluxe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus quis turpis a sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin eros vitae massa semper hendrerit. Proin nunc orci, congue sed hendrerit quis, lobortis ut mi. Phasellus vel rutrum ante. Aliquam in nibh tempor quam fermentum volutpat.</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>
+  <section id="comentários">
+    <div class="container">
+      <h2>Comentários</h2>
+      <div class="comentários">
+        <article>
+          <div class="perfil">
+            <img src="./imagens/homem.avif" alt="Retrato de um homem">
+            <h4>Gabriel Castro</h4>
+          </div>
+          <div>
+            <h4>Excelente</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel dignissim metus. Nunc nec elementum ex, eget pellentesque dui. Pellentesque cursus enim metus, hendrerit rhoncus mauris placerat sit amet. Curabitur.</p>
+          </div>
+        </article>
+        <article>
+          <div class="perfil">
+            <img src="./imagens/mulher.editada.jpg" alt="Retrato de uma mulher">
+            <h4>Angélica Carvalho</h4>
+          </div>
+          <div>
+            <h4>Incrivel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel dignissim metus. Nunc nec elementum ex, eget pellentesque dui. Pellentesque cursus enim metus, hendrerit rhoncus mauris placerat sit amet. Curabitur.</p>
+          </div>
+        </article>
+      </div>
+  </section>
+  <section id="contato">
+    <div class="container" style="border: 1px solid white;">
+      <h2>Entre em contato com a gente</h2>
+      <div class="contato">
+        <form>
+          <input type="text" placeholder="Seu nome" required>
+          <input type="email" placeholder="Seu email" required>
+          <input type="tel" placeholder="Seu telefone" required>
+          <textarea placeholder="Sua mensagem" required style="resize: none;"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <p>© Todos os direitos reservados - 2024<br>
+          <small>Desenvolvido por Danilo Jesús</small>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
